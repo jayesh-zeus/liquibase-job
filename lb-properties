@@ -1,4 +1,4 @@
-changeLogFile=
-dbUrl=
-driver=
+changeLog=./src/auth/db.changelog-master.xml
+URL=jdbc:mysql://127.0.0.1:3306/arjuna_auth
+driver=com.mysql.cj.jdbc.Driver
 
