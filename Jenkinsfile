@@ -5,8 +5,9 @@ pipeline {
 
             stage('Clone Application Repo') {
                 steps {
-                    secretProperties = readProperties file: 'lb-properties';
-                    env.URL= secretProperties.URL
+                    script {
+                        secretProperties = readProperties file: 'lb-properties';
+                        env.URL= secretProperties.URL
                         env.driver = secretProperties.driver
                         env.classpath = secretProperties.classpath
                         env.changeLog = secretProperties.changeLog
@@ -17,6 +18,7 @@ pipeline {
                                 env.password = PASSWORD
                                 echo "Username: ${USERNAME}"
                         }
+                    }
                 }
 
             }
