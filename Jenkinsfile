@@ -2,11 +2,6 @@ pipeline {
     agent any
 
         stages {
-            /* stage('Fetch AWS Secret') { */
-            /*     steps { */
-            /*         sh 'aws secretsmanager get-secret-value --secret-id liquibase-properties --query SecretString --output text > liquibase-properties.txt' */
-            /*     } */
-            /* } */
 
             stage('Clone Application Repo') {
                 steps {
@@ -29,12 +24,9 @@ pipeline {
             stage('Run Liquibase') {
                 steps {
                     script {
-                        /* def folders = ["auth", "cms", "fsapi", "lms", "lti", "archive"] */
-                        /* for (folder in folders) { */
                         dir("liquibase") {
                             sh "./liquibase update-sql --changelog-file=${env.changeLog} --classpath=${env.classpath} --driver=${env.driver} --url=${env.URL}  --username=${env.USERNAME} --password=${env.PASSWORD}"
-                                /* } */
-                            /* } */
+                        }
                     }
                 }
             }
