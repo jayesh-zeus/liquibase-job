@@ -6,7 +6,7 @@ pipeline {
             stage('Clone Application Repo') {
                 steps {
                     script {
-                        secretProperties = readProperties file: 'lb-properties';
+                        def secretProperties = readProperties file: 'lb-properties';
                         env.URL= secretProperties.URL
                         env.driver = secretProperties.driver
                         env.classpath = secretProperties.classpath
