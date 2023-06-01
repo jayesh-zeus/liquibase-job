@@ -1,7 +1,7 @@
 changeLog=../services/auth/db-changelog-master.xml
 URL=jdbc:mysql://localhost:3307/world
 driver=com.mysql.cj.jdbc.Driver
-classpath=./liquibase/mysql-connector-java-8.0.28.jar
+classpath=.//mysql-connector-java-8.0.28.jar
 USERNAME=root
 PASSWORD=root
 auth_url=some_url

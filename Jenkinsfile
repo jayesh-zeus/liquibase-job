@@ -110,9 +110,9 @@ def repoData = [
                                         service = service.replaceAll('/', '')
                                         echo "URL = ${env["${service}_url"]}"
                                     }
-                                dir("liquibase") {
-                                    sh "./liquibase updateSQL --changeLogFile=${env.changeLog} --classpath=${env.classpath} --output-file=update-sql.sql --driver=${env.driver} --url=${env.URL}  --username=${env.USERNAME} --password=${env.PASSWORD}"
-                                }
+                            }
+                            dir("liquibase") {
+                                sh "./liquibase updateSQL --changeLogFile=${env.changeLog} --classpath=${env.classpath} --output-file=update-sql.sql --driver=${env.driver} --url=${env.URL}  --username=${env.USERNAME} --password=${env.PASSWORD}"
                             }
                         }
                     }
