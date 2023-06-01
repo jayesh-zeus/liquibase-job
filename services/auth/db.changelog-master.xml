@@ -1,0 +1,3843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      dbchangelog-3.6.xsd">
+
+
+ <changeSet author="you" id="2">
+    <sqlFile dbms="mysql"
+            path="scripts/init/enum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+ <changeSet author="vipraliw" id="2">
+    <sqlFile dbms="mysql"
+            path="scripts/init/2018-08-21-t-11-10-54-insert-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+ <changeSet author="vipraliw" id="3">
+    <sqlFile dbms="mysql"
+            path="scripts/init/ModulePermission.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-08-28-t-17-29-03">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-2/2018-08-28-t-17-29-03-delete-row-PageClearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-08-29-t-11-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-2/2018-08-29-t-11-50-00-insert-add-user-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-08-30-t-15-55-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-2/2018-08-30-t-15-55-00-update-row-PageClearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-08-31-t-11-24-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-2/2018-08-31-t-11-24-00-update-row-PageClearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="vishal" id="2018-08-31-t-18-52-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-2/2018-08-31-t-18-52-00-insert-row-PageClearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="viprali" id="2018-09-07-t-20-43-50">
+    <sqlFile dbms="mysql"
+            path="scripts/init/update-password-admin.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-09-12-t-12-08-23">
+    <sqlFile dbms="mysql"
+            path="scripts/init/update-password-admin-1.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="viprali" id="2018-09-14-t-15-17-30">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-09-14-t-15-16-01-dasboard-page-clearance-level.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashish" id="2018-09-20-t-13-07-25">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-09-20-t-13-07-25-insert-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashish" id="2018-09-20-t-13-13-25">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-09-20-t-13-13-25-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-09-20-t-14-41-22">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-09-20-t-14-41-22-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="ashish" id="2018-09-20-t-20-09-22">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-09-20-t-20-09-22-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashish" id="2018-09-21-t-11-24-22">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-09-21-t-11-24-22-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashish" id="2018-09-21-t-11-38-22">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-09-21-t-11-38-22-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashish" id="2018-09-21-t-19-33-22">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-09-21-t-19-33-22-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashish" id="2018-09-24-t-14-14-22">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-09-24-t-14-14-22-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+
+<changeSet author="viprali" id="2018-09-28-t-16-33-20">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-09-28-t-16-32-22-Alter-table-User-reset-password.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="viprali" id="2018-10-01-t-12-01-29">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-10-01-t-12-00-55-update-page-clearance-level.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="viprali" id="2018-10-01-t-13-10-35">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-10-01-t-13-04-34-update-reset-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="viprali" id="2018-10-01-t-17-51-20">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-10-01-t-17-48-33-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2018-10-05-t-18-07-20">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-10-05-t-18-07-20-insert-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<!-- <changeSet author="viprali" id="2018-10-08-t-19-22-10">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-10-08-t-19-19-54-Alter-user-Unique-email.sql"
+            relativeToChangelogFile="true"/>
+</changeSet> -->
+
+<!-- <changeSet author="viprali" id="2018-10-08-t-18-17-10">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-10-09-t-18-16-20-Alter-user-unique-username.sql"
+            relativeToChangelogFile="true"/>
+</changeSet> -->
+
+
+<changeSet author="viprali" id="2018-10-11-t-16-40-30">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-10-11-t-16-38-40-update-user-listing-for-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashish" id="2018-10-12-t-12-32-40">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-3/2018-10-12-t-12-32-40-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-10-16-t-12-51-33">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-4/2018-10-16-t-12-41-23-update-page-clearance-route-as-unique.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-10-16-t-12-46-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-4/2018-10-11-t-17-31-23-insert-assessment-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-10-16-t-12-45-54">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-4/2018-10-12-t-14-59-43-insert-in-pageclearance-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-10-16-t-12-58-54">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-4/2018-10-16-t-12-57-32-update-page-clearance-name-as-no-null.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-10-22-t-14-53-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-4/2018-10-22-t-14-53-34-insert-assignment-routes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-10-26-t-19-33-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-4/2018-10-26-t-19-33-34-insert-page-clearance-for-assessment-player.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-10-30-t-20-23-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-5/2018-10-30-t-20-23-34-update-create-assessment-question-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-11-01-t-17-46-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-5/2018-11-01-t-17-46-34-update-assessment-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-11-01-t-18-15-23">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-5/2018-11-01-t-18-15-23-update-page-clearance-for-assessment-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-11-13-t-15-33-43">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-5/2018-11-13-t-15-33-43-create-timeZone-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-11-13-t-17-18-24">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-5/2018-11-13-t-17-18-23-add-timezone-isDST--column-in-userDetails.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-11-14-t-16-37-24">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-5/2018-11-14-t-16-35-23-insert-values-to-timezone-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-11-14-t-17-56-23">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-5/2018-11-14-t-17-56-23-insert-values-to-timezone-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-11-15-t-18-54-56">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-5/2018-11-15-t-18-54-56-change-timezone-in-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-11-16-t-11-14-37">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-5/2018-11-16-t-11-14-35-update-existing-user-timezone.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-11-19-t-15-48-50">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-5/2018-11-19-t-15-48-50-course-quiz-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="viprali" id="2018-11-22-t-13-22-59">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-6/2018-11-29-t-13-20-38-Insert-into-page-clerance-assessment-reports.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="dhaval" id="2018-12-10-t-19-50-55">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-6/2018-12-10-t-19-50-55-create-table-UserIdentitySources.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-12-10-t-17-54-25">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-6/2018-12-10-t-17-54-25-insert-into-UserIdentitySources.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="dhaval" id="2018-12-10-t-20-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-6/2018-12-10-t-20-00-00-alter-table-User.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-12-12-t-11-29-56">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-6/2018-12-12-t-11-29-56-create-table-LDAPSources.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="dhaval" id="2018-12-12-t-11-31-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-6/2018-12-12-t-11-31-00-create-table-LDAPGroupRoleMapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="dhaval" id="2018-12-12-t-20-16-44">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-6/2018-12-12-t-20-16-44-alter-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-12-13-t-16-21-01">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-6/2018-12-13-t-16-21-01-update-table-ldapsources.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-12-13-t-16-23-26">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-6/2018-12-13-t-16-23-26-alter-table-ldapsources.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2018-12-19-t-11-52-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-7/2018-12-19-t-11-52-00-add-gradebook-urls-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2018-12-19-t-14-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-7/2018-12-19-t-14-50-00-add-student-gradebook-url-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-12-20-t-13-38-33">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-7/2018-12-20-t-13-38-33-insert-into-IdentitySources.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-12-20-t-13-55-22">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-7/2018-12-20-t-13-55-22-create-table-cleverusers.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-15-46-36">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-15-46-36-create-or-status-enum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="jay" id="2018-12-27-t-17-49-33">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-17-49-33-changed-class-listing-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="apexa" id="2018-12-27-t-15-50-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-15-50-34-insert-into-or-enum-status.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-15-46-46">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-15-46-46-create-or-dataSet-enum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-15-46-56">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-15-46-56-create-or-base-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-15-53-36">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-15-53-34-add-foreign-key-base-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-15-55-32">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-15-55-32-create-external-users-mapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-15-57-13">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-15-57-13-add-foreign-key-in-external-users-mapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-16-09-23">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-16-09-23-create-demographic-race-category.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-16-29-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-16-29-34-insert-into-demographic-race-category.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-16-31-44">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-16-31-44-add-enabled-user-in-User.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-16-32-45">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-16-32-45-add-sms-address-in-userDetails.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-16-33-46">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-16-33-46-add-.demographic-race-id-in-userDetails.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2018-12-27-t-16-35-50">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-12-27-t-16-35-50-add-foreign-key-demographic-race.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-03-t-12-06-22">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-03-t-12-06-22-drop-table-LDAPGroupRoleMapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-02-t-15-15-25">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-02-t-15-15-25-alter-table-ldapsources.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-03-12-05-25">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-03-12-05-25-alter-table-ldapsources.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-02-t-13-26-22">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-02-t-13-26-22-create-table-UserLDAPSourceMapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2018-01-02-t-15-18-33">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2018-01-02-t-15-18-33-alter-table-UserLDAPSourceMapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2019-01-02-t-16-30-50">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-02-t-16-30-50-add-page-route-for-analysis-report.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-02-t-16-13-23">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-02-t-16-13-23-update-base-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-07-t-17-16-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-07-t-17-16-34-create-or-migration-users-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-08-t-11-06-45">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-08-t-11-06-45-create-or-migration-demographics-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-08-t-11-07-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-08-t-11-07-34-update-or-migration-users-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-08-t-12-15-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-08-t-12-15-34-update-demographics-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-08-t-13-56-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-08-t-13-56-34-insert-into-enum-dataSetTypeId.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-08-t-17-02-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-08-t-17-02-34-create-user-life-cycle-status-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-08-t-17-08-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-08-t-17-08-34-insert-into-enum-user-life-cycle-status.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-08-t-17-23-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-08-t-17-23-34-add-lifecycle-status-id.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-09-t-11-51-23">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-09-t-11-51-23-add-lifecycle-status-id-in-mgr-users.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-09-t-18-40-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-09-t-18-40-00-create-table-CLBase.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-09-t-18-43-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-09-t-18-43-00-create-table-CLStudentMetaData.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-09-t-18-54-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-09-t-18-54-00-create-table-CLTeacherMetaData.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-09-t-18-56-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-09-t-18-56-00-create-table-CLSchoolAdminMetadata.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2018-01-09-t-18-58-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2018-01-09-t-18-58-00-create-table-CLDistrictAdminMetaData.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-09-t-20-15-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-09-t-20-15-00-create-table-CLStudentMgrTable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-09-t-20-16-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-09-t-20-16-00-create-table-CLTeacherMgrTable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-09-t-20-17-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-09-t-20-17-00-create-table-CLSchoolAdminMgrTable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-09-t-20-17-10">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-09-t-20-17-10-create-table-CLDistrictAdminMgrTable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-09-t-16-40-45">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-8/2019-01-09-t-16-40-45-update-id-as-AI-in-demographics.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-11-t-16-54-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-11-t-16-54-00-Insert-alert-listing-pageclearance-entry.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+
+<changeSet author="apexa" id="2019-01-11-t-10-44-35">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-11-t-10-44-34-insert-orgId-in-ORMgrUsers.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-11-t-19-53-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-11-t-19-53-00-alter-table-CLSchoolAdminMgrTable.sql"
+ relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="apexa" id="2019-01-14-t-16-11-23">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-14-t-16-11-23-update-grade--column-ORMgrUsers.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-14-t-13-55-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-14-t-13-55-00-insert-page-clearance-for-oneroster.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2019-01-15-t-19-35-44">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-15-t-19-35-44-insert-clearance-for-sync.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-15-t-20-07-34">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-15-t-20-07-34-update-smsAddress-limit.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-15-t-20-09-23">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-15-t-20-09-23-update-smsAddress-in-user-details.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-16-t-16-47-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-16-t-16-47-00-insert-into-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-16-t-18-21-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-16-t-18-21-00-insert-into-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-16-t-18-22-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-16-t-18-22-00-insert-into-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-17-t-12-39-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-17-t-12-39-00-alter-table-CLDistrictAdminMgrTable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-17-t-12-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-17-t-12-50-00-alter-table-CLSchoolAdminMgrTable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-17-t-13-02-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-17-t-13-02-00-alter-table-CLTeacherMgrTable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-17-t-13-06-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-9/2019-01-17-t-13-06-00-alter-table-CLStudentMgrTable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-23-t-35-20-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-10/2019-01-23-t-35-20-00-add-indexes-into-cl-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-01-28-t-17-39-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-10/2019-01-28-t-add-indexes-int-userDetails.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-30-t-19-48-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-10/2019-01-30-t-19-48-00-alter-table-clstudentmetadata.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-30-t-20-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-10/2019-01-30-t-20-00-00-alter-table-clteachermetadata.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-30-t-20-04-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-10/2019-01-30-t-20-04-00-alter-table-cldistrictadminmetadata.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-01-30-t-20-03-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-10/2019-01-30-t-20-03-00-alter-table-clschooladminmetadata.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-02-06-t-20-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-11/2019-02-06-t-20-00-00-delete-user-session-with-no-users.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-02-06-t-20-12-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-11/2019-02-06-t-20-12-00-add-on-delete-cascade.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="sanket" id="2019-02-07-t-13-40-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-11/2019-02-07-t-13-40-00-add-cascading-for-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="sanket" id="2019-02-11-t-18-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-11/2019-02-11-t-18-00-00-disable-student-listing-for-pa.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-02-22-t-12-01-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-12/2019-02-22-t-12-01-00-insert-into-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-02-22-t-12-43-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-12/2019-02-22-t-12-43-00-insert-into-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="sanket" id="2019-03-06-t-15-51-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-13/2019-03-06-t-15-51-00-add-district-admin-clearance-level.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-11-t-15-16-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-13/2019-03-11-t-15-16-00-add-page-clearances-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-11-t-16-27-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-13/2019-03-11-t-16-27-00-add-da-listing-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-12-t-11-55-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-13/2019-03-12-t-11-55-00-add-dashboard-page-clearance-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-14-t-12-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-13/2019-03-14-t-12-00-00-migrate-clever-district-admins.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-03-14-t-15-29-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-13/2019-03-14-t-15-29-00-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-03-15-t-19-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-13/2019-03-15-t-19-14-00-disable-routes-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-18-t-11-47-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-14/2019-03-18-t-11-47-00-add-clearance-for-course-page-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-19-t-15-34-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-14/2019-03-19-t-15-34-00-add-clearance-for-assessment-page-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-19-t-15-39-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-14/2019-03-19-t-15-39-00-add-clearance-for-assessment-listing-page-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-19-t-18-02-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-14/2019-03-19-t-18-02-00-revoke-clearance-of-assessment-page-from-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-19-t-18-31-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-14/2019-03-19-t-18-31-00-add-clearance-for-sa-listing-page-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-27-t-19-20-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-14/2019-03-27-t-19-20-00-add-clearance-for-import-users-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-28-t-14-26-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-14/2019-03-28-t-14-26-00-add-clearance-for-teacher-listing-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-29-t-15-03-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-14/2019-03-29-t-15-03-00-add-clearance-for-assessment-player-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-03-29-t-18-04-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-14/2019-03-29-t-18-04-00-add-clearance-for-student-listing-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-01-t-12-43-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-01-t-12-43-00-add-clearance-for-class-listing-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-01-t-16-11-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-01-t-16-11-00-add-clearance-for-assessment-scheduling-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-01-t-17-20-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-01-t-17-20-00-add-clearance-for-create-class-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-02-t-17-33-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-02-t-17-33-00-add-clearance-for-class-group-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-05-t-12-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-05-t-12-00-00-add-clearance-for-assessments-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-09-t-16-10-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-09-t-16-10-00-add-clearance-for-reports-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-09-t-16-19-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-09-t-16-19-00-enable-progress-report-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay" id="2019-04-11-t-18-46-51">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-11-t-18-45-10-added-clearancelevel-edit-ass-course.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-12-t-16-36-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-12-t-16-36-00-enable-performance-report-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-04-15-t-13-06-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-15-t-13-06-00-add-LTI-UserIdentitySource.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="sanket" id="2019-04-15-t-17-36-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-15-t-17-36-00-enable-assessment-progress-report-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-16-t-17-04-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-16-t-17-04-00-enable-assessment-performance-report-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-18-t-17-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-18-t-17-30-00-enable-course-item-analysis-report-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-19-t-14-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-19-t-14-14-00-enable-assessment-item-analysis-report-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-19-t-17-15">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-19-t-17-15-00-enable-gradebook-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-22-t-15-59">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-22-t-15-59-00-enable-student-gradebook-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-04-25-t-19-10-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-25-t-19-10-00-create-table-UserAvtars.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-04-25-t-19-11-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-25-t-19-11-00-create-table-UserAvtarMapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-04-25-t-19-12-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-25-t-19-12-00-create-table-EnumProfilePictureType.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-04-24-t-12-24-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-24-t-12-24-00-update-logout-path-bitwise-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-04-24-t-12-49-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-24-t-12-49-00-add-UTC-timezone-in-timezone-enum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-24-t-18-39-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-24-t-18-39-00-enable-profile-page-for-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-04-25-t-19-21-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-25-t-19-21-00-add-consumer-listing-paths.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-04-25-t-19-40-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-25-t-19-40-00-alter-table-userdetails.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-04-26-t-18-12-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-26-t-18-12-00-insert-into-enumprofilepicturetype.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-04-26-t-18-56-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-26-t-18-56-00-insert-into-useravtars.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-04-29-t-20-33-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-15/2019-04-29-t-20-33-00-update-user-avtars.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-05-03-t-15-32-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-03-t-15-32-00-add-eula-route-to-PageClearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-05-03-t-16-08-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-03-t-16-08-00-create-EULAPreference-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-05-03-t-16-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-03-t-16-14-00-add-isEULARequired-column-to-User-Table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-05-03-t-20-35-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-03-t-20-35-00-add-isEULARequired-column-into-ORMgrUsers-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-05-06-t-18-49-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-06-t-18-49-00-add-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-05-06-t-18-55-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-06-t-18-55-00-alter-table-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-05-06-t-19-04-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-06-t-19-04-00-alter-table-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-05-06-t-19-09-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-06-t-19-09-00-alter-table-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-05-06-t-19-52-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-06-t-19-52-00-insert-into-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-05-07-t-11-52-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-07-t-11-52-00-added-isEULARequired-default-value.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-05-07-t-18-36-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-07-t-18-36-00-insert-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-05-07-t-18-37-00">
+
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-07-t-18-37-00-alter-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-05-08-t-18-08-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-08-t-18-08-00-insert-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-05-08-t-18-33-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-08-t-18-33-00-create-table-ldapsources.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-05-08-t-18-35-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-08-t-18-35-00-alter-table-userldapsourcemapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-05-09-t-19-41-00">
+
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-09-t-19-41-00-added-class-report-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-05-13-t-13-13-00">
+
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-13-t-13-13-00-Add-AddToClass-Page-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-05-08-t-18-47-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-08-t-18-47-00-create-table-ldapgrouprolemapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="sanket" id="2019-05-07-t-18-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-07-t-18-50-00-set-default-time-zone-for-all-users.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-05-08-t-18-36-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-08-t-18-36-00-make-time-zone-not-null.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="sanket" id="2019-05-08-t-20-19-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-08-t-20-19-00-add-time-zone-in-ORMgrUsers.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="sanket" id="2019-05-09-t-14-39-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-09-t-14-39-00-add-time-zone-in-clever-mgr-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-05-13-t-15-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-13-t-15-00-00-set-default-user-creation-date.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-05-13-t-15-45-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-13-t-15-45-00-add-modifiedOn-column-User-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-05-13-t-16-02-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-13-t-16-02-00-rearrange-User-table-columns.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-05-13-t-19-23-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-13-t-19-23-00-create-DeletedUsers-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-05-14-t-14-34-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-14-t-14-34-00-drop-sp-GetModifiedUsers.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-05-10-t-16-24-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-10-t-16-24-00-insert-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-05-14-t-10-54-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-14-t-10-54-00-update-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-05-14-t-10-55-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-14-t-10-55-00-alter-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-05-14-t-10-58-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-14-t-10-58-00-insert-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-05-14-t-11-32-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-14-t-11-32-00-update-page-clearnace.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-05-15-t-11-22-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-15-t-11-22-00-change-default-createdOn-date.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-05-14-t-17-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-14-t-17-05-00-update-time-zones.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-05-17-t-12-22-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-17-t-12-22-00-random-creation-and-modification-dates.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-05-23-t-03-57-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-23-t-03-57-00-modified-userAvatarMapping-foreign-key.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-05-24-t-15-13-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-24-t-15-12-00-cascade-delete-inEULAPreferences.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-05-30-t-13-56-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-16/2019-05-30-t-13-56-00-update-samoa-time-zone.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-06-06-t-21-07-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-17/2019-06-06-t-21-07-00-Added-index-on-emailId-column-User-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="viprali" id="2019-06-13-t-13-30-59">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-17/2019-06-13-t-13-18-08-OneRoster added in IdentitySource.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-06-13-t-19-37-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-17/2019-06-13-t-19-37-00-add-index-in-clBase.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-06-13-t-19-38-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-17/2019-06-13-t-19-38-00-add-index-in-OR-Base-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="Jay_Dudhatra" id="2019-06-14-t-4-42-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-17/2019-06-14-t-04-42-00-add-teacher-profile-clearance-for-PA.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-06-15-t-11-34-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-17/2019-06-15-t-11-34-00-chane-default-value-of-isEULARequired.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-06-27-t-15-29-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-06-27-t-15-28-00-page-clearance-for-license.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-06-27-t-19-04-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-06-27-t-19-04-00-insert-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-07-03-t-15-03-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-03-t-15-03-00-add-indexes-in-or-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-07-05-t-14-13-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-05-t-14-13-00-page-clearance-for-license-catalog.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2019-07-04-t-19-39-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-04-t-19-39-00-add-indexes-in-or-mgr-users-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-07-08-t-19-18-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-08-t-19-18-00-page-clearance-for-license-usage.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2019-07-05-t-19-22-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-05-t-19-22-00-add-index-clmgrschooladmin.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2019-07-05-t-19-23-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-05-t-19-23-00-add-index-clmgrstudenttable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2019-07-05-t-20-08-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-05-t-20-08-00-add-index-clmgrteachertable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-07-11-t-11-56-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-11-t-11-56-00-page-clearance-for-license-usage-updated.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="Jay_Dudhatra" id="2019-07-18-t-14-19-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-18-t-14-19-00-license-catalog-option-in-study-material-menu-for-teacher.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="Jay_Dudhatra" id="2019-07-23-t-13-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-23-t-13-14-00-updated-teacher-clearance-for-license-usage-details.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="vishal" id="2019-07-18-t-11-54-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-18-t-11-54-00-alter-table-orbasetable-add-vendorid.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2019-07-19-t-12-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-18/2019-07-19-t-12-00-00-add-page-clearance-for-oneroster-data-provider.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="dhaval" id="2019-07-19-t-17-28-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-18//2019-07-19-t-17-28-00-alter-table-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="dhaval" id="2019-07-23-t-11-10-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-18/2019-07-23-t-11-10-00-create-table-userarchivehistory.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="dhaval" id="2019-07-23-t-12-01-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-18/2019-07-23-t-12-01-00-alter-table-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="dhaval" id="2019-07-23-t-14-34-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-18/2019-07-23-t-14-34-00-creat-table-enumarchiveaction.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-07-23-t-14-35-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-18/2019-07-23-t-14-35-00-insert-into-enumarchive-action.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-07-23-t-14-38-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-18/2019-07-23-t-14-38-00-alter-table-userarchivehistory.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay_desai" id="2019-08-27-t-16-09-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-19/2019-08-27-t-16-09-00-alter-table-User.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashish" id="2019-08-30-t-17-24-22">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-08-30-t-17-24-22-add-page-clearance-for-pa-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="jay_desai" id="2019-08-30-t-19-00-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-19/2019-08-30-t-19-00-00-page-clearance-for-login-select-school.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2019-09-04-t-15-22-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-09-04-t-15-22-00-add-page-clearance-of-pa-profile.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="jay_desai" id="2019-03-09-t-23-29-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-03-09-t-23-29-00-alter-table-User.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay_desai" id="2019-03-09-t-23-32-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-03-09-t-23-32-00-create-table-EnumIsSchoolSelectRequired.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="jay_desai" id="2019-09-03-t-23-33-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-09-03-t-23-33-00-insert-into-EnumIsSchoolSelectRequired.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<!-- <changeSet author="jay_desai" id="2019-09-03-t-23-35-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-09-03-t-23-35-00-alter-table-User.sql"
+            relativeToChangelogFile="true"/>
+</changeSet> -->
+
+
+<changeSet author="dhaval" id="2019-09-11-t-15-26-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-09-11-t-15-26-00-alter-clever-sa-mgr-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-09-11-t-15-26-01">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-09-11-t-15-26-01-alter-clever-student-mgr-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="dhaval" id="2019-09-11-t-15-26-02">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-09-11-t-15-26-02-alter-clever-teacher-mgr-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-09-11-t-15-40-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-09-11-t-15-40-00-alter-clever-sa-mgr-add-constraint.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-09-11-t-15-40-01">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-09-11-t-15-40-01-alter-clever-student-mgr-add-constraint.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-09-11-t-15-40-02">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-20/2019-09-11-t-15-40-02-alter-clever-teacher-mgr-add-constraint.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<!-- <changeSet author="ashish" id="2019-10-07-t-18-44-22">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-22/2019-10-07-t-18-44-22-page-clearance-for-product-usage.sql"
+            relativeToChangelogFile="true"/>
+</changeSet> -->
+
+<changeSet author="dhaval" id="2019-10-16-t-13-48-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-22/2019-10-16-t-13-48-00-alter-table-clmgrstudent.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-10-16-t-13-49-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-22/2019-10-16-t-13-49-00-alter-table-clmgrteachertable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-10-16-t-13-52-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-22/2019-10-16-t-13-52-00-alter-table-clmgrschooladmintable.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2019-10-11-t-11-37-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-22/2019-10-11-t-11-37-00-page-clearance-for-login-report.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2019-10-11-t-15-12-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-22/2019-10-11-t-15-12-00-add-logouttime-groupid-column-in-LoginSessionLog.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2019-10-16-t-17-55-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-22/2019-10-16-t-17-55-00-drop-column-groupid-from-LoginSessionLog.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2019-10-14-t-12-11-30">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-22/2019-10-14-t-12-11-30-page-clearance-for-course-reports.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-11-08-t-10-51-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-22/2019-11-08-t-10-51-00-page-clearance-license-details-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-11-13-19-24-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-23/2019-11-13-19-24-00-delete-old-da-routes-for-performance-progress-reports.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-11-13-19-32-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-23/2019-11-13-19-32-00-insert-routes-for-performance-progress-reports-da.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-11-27-t-10-48-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-23/2019-11-27-t-10-48-00-alter-clever-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="Pawan" id="2019-11-27-15-02-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-23/2019-11-27-15-02-00-insert-routes-for-manage-course.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-22-t-11-38-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2019-01-22-t-11-38-00-create-batch-process-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2019-01-22-t-11-41-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2019-01-22-t-11-41-00-insert-into-batch-enums.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-01-22-20-30-18">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-01-22-t-20-30-18-Insert-into-PageClearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+
+<changeSet author="hammad" id="2019-11-28-16-04-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-11-28-16-04-00-insert-routes-for-content-author-listing-pa.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2019-11-28-19-06-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-11-28-19-06-00-insert-clearance-levels-for-ca-and-ce.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2019-12-02-13-14-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-02-13-14-00-insert-routes-for-ca-and-ce-profile-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-12-03-17-21-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-03-17-21-00-added-PasswordHistory-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Sneha" id="019-12-11-18-36-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-11-18-36-00-name-change-from-content-author-to-content-admin.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-12-02-15-14-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-02-12-t-15-12-00-add-district-supervisor-clearance-level.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-12-02-17-54-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-02-t-17-40-00-added-page-clearance-for-ds-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-12-02-18-19-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-02-t-18-17-00-update-page-clearance-for-ds-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sneha" id="2019-03-12-t-06-14-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-03-12-t-06-14-00-update-district-admin-name-to-district-technical-admin-in-clearance-level.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-12-04-t-11-47-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-04-t-11-47-00-added-sub-menu-for-users-in-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-12-05-t-15-14-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-05-t-15-14-00-add-page-entry-for-ds-profile.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-12-05-t-18-07-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-05-t-18-07-00-update-page-clearance-for-DS.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Ankit" id="2019-12-12-12-24-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-1/2019-12-12-t-12-24-added-clearance-level-for-TSO-role.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-12-16-t-17-39-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-16-t-17-39-00-added-product-type-enum.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-12-16-t-17-59-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-16-t-17-59-00-added-product-type-clearance-level-mapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sneha" id="2019-12-24-t-17-26-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-24-t-17-26-00-alter-PasswordHistory-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="Jay_Dudhatra" id="2019-12-11-18-14-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-11-18-14-updated-page-clearance-for-TSO-role.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-12-12-15-58-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-12-15-58-00-added-forgot-username-in-EnumActions.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="faiza" id="2019-12-23-t-12-24-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-1/2019-12-23-t-12-24-added-clearance-level-for-ContentReviewer-role.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="faiza" id="2019-12-23-16-13-01">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-1/2019-12-23-16-13-updated-page-clearance-for-SecurityAdminUpdate-role.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="faiza" id="2019-12-23-16-13-02">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-1/2019-12-23-16-13-updated-page-clearance-for-SecurityAdminInsert-role.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-12-30-t-17-10-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-1/2019-12-30-t-17-10-00-deleted-unnecessary-product-mapping.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-12-24-t-14-58-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-1/2019-12-24-t-14-58-00-update-product-type-enum.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-12-24-t-14-58-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-1/2019-12-24-t-14-58-00-update-product-type-enum.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-12-24-t-15-01-10">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-1/2019-12-24-t-15-01-00-update-product-type-clearance-level-map.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2019-12-26-t-18-14-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-26-t-18-14-00-add-product-type-map.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-12-23-t-13-42-01">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-23-t-13-42-01-update-page-clearances-for-ca.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2019-12-24-17-30-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-24-17-30-00-insert-routes-for-tso-listing-and-profile-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2019-12-24-t-19-22-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-24-t-19-22-00-insert-routes-for-tso-profile-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2019-12-24-t-20-22-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-24-t-20-22-00-update-route-for-self-pa.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-12-23-t-16-19-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-23-t-16-19-00-add-permission-related-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="faiza" id="2019-12-26-t-13-42-01">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-26-t-13-42-01-update-page-clearances-for-securityadmin.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="faiza" id="2019-12-26-t-13-42-02">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-26-t-13-42-02-update-page-clearances-for-securityadmin.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="sanket" id="2019-12-26-t-18-24-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-26-t-18-24-00-rename-column-name-in-module-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sanket" id="2019-12-26-t-18-35">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-26-t-18-35-00-add-archive-course-permission.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2019-12-27-t-20-04-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-27-t-20-04-00-update-ClearanceLevel-table-value-for-dta.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2019-12-30-t-14-00-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-30-t-14-00-00-update-bitwise-clearance-for-pa-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2019-12-30-t-20-56-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2019-12-30-t-20-56-00-added-product-access-for-cms-to-PA.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2019-12-30-t-18-52-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-30-t-18-52-00-add-initialization-vector-column-in-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2019-12-30-t-19-14-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-30-t-19-14-00-update-initialization-vector-column-in-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2019-12-30-t-22-46-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-30-t-22-46-00-add-encrypted-password-column-in-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2019-12-31-t-17-16-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-31-t-17-16-00-update-initialization-vector-column-in-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2019-12-31-t-17-46-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2019-12-31-t-17-46-00-update-encrypted-password-column-in-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2020-01-01-t-11-45-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2020-01-01-t-11-45-00-add-intialization-vector-mapping-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2020-01-01-t-14-35-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2020-01-01-t-14-35-00-drop-unneccessary-coumn-from-User-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2020-01-03-t-12-05-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-24/2020-01-03-t-12-05-00-update-foeign-key-intialization-vector-mapping-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2020-1-3-t-20-18-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-1-3-t-20-18-00-update-clearance-level-name-for-dta.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-1-4-t-12-02-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-1-4-t-12-02-00-update-page-clearance-bitwise-value.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-01-04-t-14-55-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-01-04-t-14-55-00-add-page-clearance-for-tso-self-profile.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-1-04-t-15-58-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-1-04-t-15-58-00-update-page-clearance-for-add-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-1-04-t-17-03-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-1-04-t-17-03-00-add-basic-page-routes-for-CR.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-01-06-t-12-00-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-01-06-t-12-00-00-update-self-profile-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sneha" id="2020-01-06-t-12-06-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-01-06-t-12-06-00-update-user-avtar-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-01-07-t-21-13-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-01-07-t-21-13-00-remove-access-to-license-for-SA.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sneha" id="2020-01-07-t-14-34-00" runOnChange="true">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-01-07-t-14-34-00-update-page-clearance-pa-tso-changes-student.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-01-08-t-17-42-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-01-08-t-17-42-00-remove-school-admin-access-from-SR.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2020-01-10-t-14-38-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-01-10-t-14-38-00-added-lo-management-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="ankit" id="2020-01-14-t-17-07-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-01-14-t-17-07-00-added-question-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2020-01-15-t-18-34-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-3/2020-01-15-t-18-34-00-add-lo-library-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-1-17-t-13-21-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-4/2020-1-17-t-13-21-00-insert-route-for-question-lo.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rohit" id="2020-1-20-t-20-12-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-4/2020-1-20-t-20-12-00-insert-routes-for-all-8-types-lo.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-01-21-t-15-35-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-4/2020-01-21-t-15-35-00-update-instruction-lo-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Dudhatra" id="2020-1-21-t-20-07-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-4/2020-1-21-t-20-07-00-added-route-for-question-library.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-01-22-t-11-52-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-4/2020-01-22-t-11-52-00-update-content-lo-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-01-27-t-13-35-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-4/2020-1-27-t-13-35-00-added-route-for-grouped-question-and-update-question-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-1-29-t-16-15-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-4/2020-1-29-t-16-15-00-added-route-for-select-lo-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rajnish" id="2020-01-29-t-18-19-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-4/2020-01-29-t-18-19-00-update-clerence-level-for-license-history.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2020-01-29-t-20-14-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-01-29-t-20-14-00-alter-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-02-05-t-15-18-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-02-05-t-15-18-00-insert-into-page-clearance-banner-library-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-02-05-t-17-53-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-02-05-t-17-53-00-insert-into-page-clearance-create-banner-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ritesh" id="2020-02-05-t-20-37-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-02-05-t-20-37-00-change-page-clearance-login-report.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="apexa" id="2020-02-11-t-10-25-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-6/2020-02-11-t-10-25-00-add-page-clearance-for-library-cr.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Jay_Desai" id="2020-02-12-t-22-25-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-6/2020-02-12-t-22-25-00-add-isCookiesAlertRequired-column-to-User-Table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-02-11-t-13-05-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-02-11-t-13-05-00-add-product-usage-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2020-02-11-t-15-08-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-02-11-t-15-08-00-alter-table-ORMgrUsers.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2020-02-12-t-10-52-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-02-12-t-10-52-00-alter-table-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2020-02-12-t-10-56-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-02-12-t-10-56-00-insert-pageclearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-02-12-t-21-37-06">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-6/2020-02-12-t-21-37-06-add-version-listing-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-02-13-t-15-14-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-6/2020-02-13-t-15-14-00-add-isCourseFamilySelectionRqd-column-in-User-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-02-13-t-16-36-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-6/2020-02-13-t-16-36-00-add-select-course-family-path.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-02-14-t-15-30-10">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-6/2020-02-14-t-15-30-00-update-page-route-for-security-admin.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-02-14-t-13-18-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-02-14-t-13-18-00-alter-or-tables-sourcedId.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="salim" id="2020-02-14-t-13-18-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-02-19-t-16-52-00-insert-page-clearance-edit-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2020-02-21-12-20-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-6/2020-02-21-12-20-00-add-page-clearance-for-course-quiz.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-02-24-01-32-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-6/2020-02-24-01-32-00-update-page-clearance-create-course.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<!-- <changeSet author="rushikesh" id="2020-02-24-t-11-36-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-6/2020-02-24-t-11-36-00-insert-page-clearance-course-library.sql"
+            relativeToChangelogFile="true"/>
+</changeSet> -->
+
+<changeSet author="ritesh" id="2020-03-02-17-02-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-6/2020-03-02-17-02-00-add-page-clearance-for-course-detail-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sneha" id="2020-02-29-t-17-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-6/2020-02-29-t-17-05-00-update-course-listing-clearance-level.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-03-04-t-18-18-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-6/2020-03-04-t-18-00-00-add-page-clearance-for-tso-course.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ritesh" id="2020-03-17-t-17-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-6/2020-03-17-t-17-05-00-add-page-clearance-for-tso-performance-report.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-03-25-t-19-39-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-6/2020-03-25-t-19-39-00-add-page-clearance-for-fib-and-dropdown-tei.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-04-01-t-20-44-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-6/2020-04-01-t-20-44-00-add-page-clearance-for-audio-video-lo.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sneha" id="2020-04-02-t-13-20-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-6/2020-04-02-t-13-20-00-add-page-clearance-course-import.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="talha" id="2020-04-02-t-14-12-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-25/2020-04-02-t-14-12-00-add-page-clearance-for-true-or-false-question.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-04-09-t-12-56-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-04-09-t-12-56-00-add-health-check-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2020-04-09-t-19-36-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-8/2020-04-09-t-19-36-00-add-page-clearance-for-highlights-creation.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-04-10-t-19-22-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-04-10-t-19-22-00-add-file-upload-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ritesh" id="2020-04-03-t-12-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-6/2020-04-03-t-12-05-00-add-page-clearance-for-rubrics.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-04-14-t-13-08-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-6/2020-04-14-t-13-08-00-add-page-clearance-for-essay.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-04-17-t-15-32-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-6/2020-04-17-t-15-32-00-add-system-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-04-20-t-08-15-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-6/2020-04-20-t-08-15-00-add-page-clearance-for-teacher-evaluation.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-04-24-t-12-21-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-8/2020-04-24-t-12-21-00-add-page-clearance-for-teacher-evaluation-pages.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-04-24-t-11-22-01">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-04-24-t-11-22-00-update-health-check-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="prathamesh" id="2020-04-25-t-17-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-25/2020-04-25-t-17-05-00-add-entry-in-table-PageClearance-for-change-course-family-path.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-04-25-t-17-25-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-04-25-t-17-25-00-create-CourseFamilyClearance-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-04-25-t-18-09-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-04-25-t-18-09-00-insert-report-entries-in-CourseFamilyClearance-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-04-25-t-21-30-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-04-25-t-17-27-00-rename-CourseFamilyClearance-to CourseFamilyPageClearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-04-30-t-21-17-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-8/2020-04-30-t-21-17-00-update-gradebook-coursefamily-bitwise.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay_desai" id="2020-05-04-t-14-02-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-8/2020-05-04-t-14-02-00-update-gradebook-coursefamily-bitwise.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2020-05-05-t-17-50-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-8/2020-05-05-t-17-50-00-update-producat-usage-coursefamily-bitwise.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="salim" id="2020-05-07-t-12-35-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-8/2020-05-07-t-12-35-00-add-page-clearance-for-flipping-book-and-html5.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="pawan" id="2020-05-07-t-13-19-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-8/2020-05-07-t-13-19-00-add-page-clearance-for-create-ebsr.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sneha" id="2020-05-05-t-12-53-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-8/2020-05-05-t-12-53-00-add-page-clearance-for-hotspot-creation.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-05-05-t-19-24-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-8/2020-05-05-t-19-24-00-add-route-for-classify-question.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2020-06-03-t-17-18-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-03-t-17-18-00-additive-role-changes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-06-03-t-18-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-03-t-18-30-00-add-switch-role-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-06-01-t-17-19-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-8/2020-06-01-t-17-19-00-add-page-clearance-for-view-course-details.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-06-10-t-11-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-10-t-11-14-00-added-clearance-for-system-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="salim" id="2020-06-30-t-17-29-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-30-t-17-29-00-create-table-UserSessionTimeoutDuration.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-06-15-t-10-37-10">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-15-t-10-37-10-add-ltdistrict-user-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-06-19-t-11-52-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-19-t-11-52-00-add-linkit-sso-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-06-24-t-20-24-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-24-t-20-24-00-linkit-redirected-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-06-25-t-10-25-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-25-t-10-25-00-add-linkitsync-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-06-25-t-16-42-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-25-t-16-42-00-add-linkit-sso-route-student.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay_desai" id="2020-06-25-t-16-26-03">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-25-t-16-26-03-update-page-clearances-for-sr.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-06-26-t-00-13-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-26-t-00-13-00-alter-linkIt-sync-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-06-29-t-19-18-03">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-29-t-19-18-00-saml-listing-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-06-29-t-22-58-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-29-t-22-58-07-add-saml-table-and-enum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-06-30-t-13-10-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-30-t-13-10-07-change-EnumLogout-and-EnumMatchId-values.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-06-30-t-16-54-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-30-t-16-54-07-alter-table-SAMLSources-add-column.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-06-30-t-18-42-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-30-t-18-42-07-change-SAMLSource-column-type.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="apexa" id="2020-07-03-t-15-53-10">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-03-t-15-53-00-create-route-static-path-page-map.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-04-t-22-03-10">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-04-t-22-03-00-add-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-04-07-t-22-53-20">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-04-07-t-22-53-00-add-in-course-family-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-07-t-15-06-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-07-t-15-06-00-update-page-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-07-t-17-47-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-07-t-17-47-00-remove-student-clearance-for-html-pages.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-07-01-t-17-30-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-01-t-17-30-07-add-table-EnumSignatureAlgorithm.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-07-01-t-17-43-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-01-t-17-43-07-alter-table-SAMLSources-add-column.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="siddhesh" id="2020-07-01-t-21-58-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-01-t-21-58-07-saml-config-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="kashmira" id="2020-07-06-t-13-34-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-06-t-13-34-00-add-syncid-column-to-LinkItSyncUser.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-07-06-t-21-44-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-06-t-21-44-00-drop-fk-userltusermap.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="abhijeet" id="2020-07-06-t-20-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-06-t-20-50-00-remove-unique-index.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-07-07-t-22-43-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-07-t-22-43-00-alter-table-ltstaff.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-08-t-11-25-10">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-07-t-11-25-00-add-page-clerance-for-tso.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-07-t-18-54-20">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-07-t-18-54-00-add-title-in-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-08-t-17-54-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-08-t-17-54-00-update-path.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-20-t-16-17-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-20-t-16-17-00-update-columns.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay_desai" id="2020-07-23-t-22-23-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-23-t-22-23-00-setting-isDst-true-for-all-users.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-07-21-t-14-59-25">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-21-t-14-59-25-insert-values-to-timezone-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="prathamesh" id="2020-07-30-t-14-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-30-t-14-30-00-add-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sneha" id="2020-08-06-t-16-54-25">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-08-06-t-16-54-25-add-page-clearance-my-district.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sneha" id="2020-08-07-t-18-27-25">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-08-07-t-18-27-25-add-page-clearance-my-school.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-08-11-t-17-40-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-08-11-t-17-40-07-add-page-clearance-ebook-lo.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-08-19-t-13-11-03">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-08-19-t-13-11-03-add-row-PageClearance-google-classroom-import.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2020-08-20-t-11-35-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-08-20-t-11-35-00-add-google-classroom-identity-source-enum.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-08-27-t-23-17-03">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-08-27-t-23-17-03-add-PageClearance-google-classroom-sync-and-history.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-08-28-t-11-23-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-08-28-t-11-23-00-add-classlink-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ritesh" id="2020-09-09-t-14-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-09-t-14-05-00-add-classlink-identity-source.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-08-31">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-08-31-t-14-02-00-insert-route-for-gc-link.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-08-19-t-21-13-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-08-19-t-21-13-07-add-page-clearance-drawing-tei.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2020-09-09-t-20-38-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-09-09-t-20-38-00-add-route-for-graphing-tei.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="rushikesh" id="2020-09-19-t-14-20-30">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-19-t-14-20-30-update-timezoneenum.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="salim" id="2020-09-22-t-17-09-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-22-t-17-09-00-add-page-clearance-configure-tool-consumer.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-09-22-t-19-17-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-22-t-19-17-07-add-table-LTIUserRoutes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-09-22-t-19-22-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-22-t-19-22-07-add-values-LTIUserRoutes copy.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="salim" id="2020-09-24-t-12-19-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-24-t-12-19-00-add-page-clearance-view-lti-course-details.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="salim" id="2020-09-24-t-18-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-24-t-12-19-00-add-lti-course-details-to-LTIUserRoutes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="prathamesh" id="2020-09-24-t-22-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-09-24-t-22-50-00-add-lti-course-listing-route-to-LTIUserRoutes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-09-29-t-17-53-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-09-29-t-17-53-00-reset-LTI-user-EULA-flag.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-09-30-t-22-22-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-09-30-t-22-22-00-add-sortOrder-column-in-TimezoneEnum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-09-30-t-22-45-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-09-30-t-22-45-00-add-sortOrder-values-in-TimezoneEnum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-10-07-t-21-59-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-10-07-t-21-59-00-add-retired-column.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay_desai" id="2020-10-08-t-16-24-01">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-25/2020-10-08-t-16-24-01-alter-TimeZoneEnum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="prathamesh" id="2020-10-09-t-14-56-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-10-09-t-14-56-00-update-ST-offsetInSec-value-in-TimezoneEnum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-10-13-t-22-27-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-10-13-t-22-27-00-update-text-in-TimezoneEnum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2020-10-19-t-14-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-10-19-t-14-14-00-add-index-in-user-table-for-sp-optimization.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="akhilesh" id="2020-10-22-t-13-47-23">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-10-22-t-13-47-23-add-route-for-license-report-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="kashmira" id="2020-10-22-t-16-34-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-10-22-t-16-34-00-add-route-for-matching-tei.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="akhilesh" id="2020-10-30-t-12-22-53">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-10-30-t-12-22-53-add-route-for-license-report-details-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="het" id="2020-11-04-t-19-31-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-04-t-19-31-00-add-route-for-page-library.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-11-09-t-17-46-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-09-t-17-46-00-create-tables-for-manage-site.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pratik" id="2020-11-12-t-13-23-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-12-t-13-23-00-add-route-for-information-and-error-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pratik" id="2020-11-17-t-11-24-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-17-t-11-24-00-add-route-for-manage-global-footer-cfmenu.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-11-13-t-12-43-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-13-t-12-43-07-update-ORMgrUsers-and-ORMgrDemographics-add-column-vendorId.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-11-13-t-19-18-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-11-13-t-19-18-00-alter-or-base-table-primary-key.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-11-09-t-12-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-09-t-12-05-00-insert-row-page-clearance-create-announcements.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-11-20-t-15-04-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-20-t-15-04-00-insert-row-page-clearance-notifications-preferences.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-12-03-t-15-04-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-12-03-t-15-04-00-insert-row-page-clearance-notification-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-11-20-t-20-20-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-11-20-t-20-20-00-add-timeZoneId-column-GenericHTMLPage-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-11-26-t-11-13-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-11-26-t-11-13-0-update-generichtmlpage-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-11-30-t-12-20-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-11-30-t-12-20-00-add-clearanceLevel-column-generichtmlpage-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-12-08-t-13-45-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-12-08-t-13-45-00-remove-footer-page-routes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rajnish" id="2020-12-16-12-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-12-16-12-50-00-change-rubric-catalog-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-01-04-t-19-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-01-04-t-19-05-00-create-auth-alert-clearancelevel-map-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-01-06-t-19-03-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-01-06-t-19-03-07-update-auth-alert-clearancelevel-map-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="prathamesh" id="2020-04-25-t-17-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-25/2020-04-25-t-17-05-00-add-entry-in-table-PageClearance-for-change-course-family-path.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-04-25-t-17-25-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-04-25-t-17-25-00-create-CourseFamilyClearance-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-04-25-t-18-09-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-04-25-t-18-09-00-insert-report-entries-in-CourseFamilyClearance-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-04-25-t-21-30-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/milestone-25/2020-04-25-t-17-27-00-rename-CourseFamilyClearance-to CourseFamilyPageClearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-04-30-t-21-17-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-8/2020-04-30-t-21-17-00-update-gradebook-coursefamily-bitwise.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay_desai" id="2020-05-04-t-14-02-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-8/2020-05-04-t-14-02-00-update-gradebook-coursefamily-bitwise.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2020-05-05-t-17-50-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-8/2020-05-05-t-17-50-00-update-producat-usage-coursefamily-bitwise.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="salim" id="2020-05-07-t-12-35-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-8/2020-05-07-t-12-35-00-add-page-clearance-for-flipping-book-and-html5.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="pawan" id="2020-05-07-t-13-19-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-8/2020-05-07-t-13-19-00-add-page-clearance-for-create-ebsr.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="sneha" id="2020-05-05-t-12-53-00">
+    <sqlFile dbms="mysql"
+                endDelimiter="//"
+            path="scripts/sprint-8/2020-05-05-t-12-53-00-add-page-clearance-for-hotspot-creation.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-05-05-t-19-24-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-8/2020-05-05-t-19-24-00-add-route-for-classify-question.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2020-06-03-t-17-18-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-03-t-17-18-00-additive-role-changes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-06-03-t-18-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-03-t-18-30-00-add-switch-role-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-06-01-t-17-19-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-8/2020-06-01-t-17-19-00-add-page-clearance-for-view-course-details.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-06-10-t-11-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-10-t-11-14-00-added-clearance-for-system-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="salim" id="2020-06-30-t-17-29-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-30-t-17-29-00-create-table-UserSessionTimeoutDuration.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-06-15-t-10-37-10">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-15-t-10-37-10-add-ltdistrict-user-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-06-19-t-11-52-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-19-t-11-52-00-add-linkit-sso-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-06-24-t-20-24-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-24-t-20-24-00-linkit-redirected-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-06-25-t-10-25-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-25-t-10-25-00-add-linkitsync-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-06-25-t-16-42-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-25-t-16-42-00-add-linkit-sso-route-student.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay_desai" id="2020-06-25-t-16-26-03">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-25-t-16-26-03-update-page-clearances-for-sr.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-06-26-t-00-13-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-26-t-00-13-00-alter-linkIt-sync-user.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-06-29-t-19-18-03">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-29-t-19-18-00-saml-listing-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-06-29-t-22-58-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-29-t-22-58-07-add-saml-table-and-enum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-06-30-t-13-10-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-30-t-13-10-07-change-EnumLogout-and-EnumMatchId-values.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-06-30-t-16-54-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-30-t-16-54-07-alter-table-SAMLSources-add-column.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-06-30-t-18-42-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-06-30-t-18-42-07-change-SAMLSource-column-type.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="apexa" id="2020-07-03-t-15-53-10">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-03-t-15-53-00-create-route-static-path-page-map.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-04-t-22-03-10">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-04-t-22-03-00-add-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-04-07-t-22-53-20">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-04-07-t-22-53-00-add-in-course-family-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-07-t-15-06-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-07-t-15-06-00-update-page-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-07-t-17-47-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-07-t-17-47-00-remove-student-clearance-for-html-pages.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-07-01-t-17-30-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-01-t-17-30-07-add-table-EnumSignatureAlgorithm.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-07-01-t-17-43-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-01-t-17-43-07-alter-table-SAMLSources-add-column.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="siddhesh" id="2020-07-01-t-21-58-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-01-t-21-58-07-saml-config-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="kashmira" id="2020-07-06-t-13-34-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-06-t-13-34-00-add-syncid-column-to-LinkItSyncUser.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-07-06-t-21-44-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-06-t-21-44-00-drop-fk-userltusermap.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="abhijeet" id="2020-07-06-t-20-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-06-t-20-50-00-remove-unique-index.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-07-07-t-22-43-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-10/2020-07-07-t-22-43-00-alter-table-ltstaff.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-08-t-11-25-10">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-07-t-11-25-00-add-page-clerance-for-tso.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-07-t-18-54-20">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-07-t-18-54-00-add-title-in-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-08-t-17-54-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-08-t-17-54-00-update-path.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-07-20-t-16-17-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-20-t-16-17-00-update-columns.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay_desai" id="2020-07-23-t-22-23-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-23-t-22-23-00-setting-isDst-true-for-all-users.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-07-21-t-14-59-25">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-21-t-14-59-25-insert-values-to-timezone-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="prathamesh" id="2020-07-30-t-14-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-07-30-t-14-30-00-add-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-08-11-t-17-40-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-08-11-t-17-40-07-add-page-clearance-ebook-lo.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-08-19-t-13-11-03">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-08-19-t-13-11-03-add-row-PageClearance-google-classroom-import.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2020-08-20-t-11-35-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-08-20-t-11-35-00-add-google-classroom-identity-source-enum.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-08-27-t-23-17-03">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-08-27-t-23-17-03-add-PageClearance-google-classroom-sync-and-history.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-08-28-t-11-23-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-08-28-t-11-23-00-add-classlink-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ritesh" id="2020-09-09-t-14-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-09-t-14-05-00-add-classlink-identity-source.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-08-31">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-08-31-t-14-02-00-insert-route-for-gc-link.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-08-19-t-21-13-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-11/2020-08-19-t-21-13-07-add-page-clearance-drawing-tei.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2020-09-09-t-20-38-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-09-09-t-20-38-00-add-route-for-graphing-tei.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="rushikesh" id="2020-09-19-t-14-20-30">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-19-t-14-20-30-update-timezoneenum.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="salim" id="2020-09-22-t-17-09-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-22-t-17-09-00-add-page-clearance-configure-tool-consumer.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-09-22-t-19-17-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-22-t-19-17-07-add-table-LTIUserRoutes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-09-22-t-19-22-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-22-t-19-22-07-add-values-LTIUserRoutes copy.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="salim" id="2020-09-24-t-12-19-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-24-t-12-19-00-add-page-clearance-view-lti-course-details.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="salim" id="2020-09-24-t-18-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-14/2020-09-24-t-12-19-00-add-lti-course-details-to-LTIUserRoutes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="prathamesh" id="2020-09-24-t-22-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-09-24-t-22-50-00-add-lti-course-listing-route-to-LTIUserRoutes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="naitik" id="2020-09-29-t-17-53-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-09-29-t-17-53-00-reset-LTI-user-EULA-flag.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-09-30-t-22-22-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-09-30-t-22-22-00-add-sortOrder-column-in-TimezoneEnum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-09-30-t-22-45-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-09-30-t-22-45-00-add-sortOrder-values-in-TimezoneEnum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="apexa" id="2020-10-07-t-21-59-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-10-07-t-21-59-00-add-retired-column.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jay_desai" id="2020-10-08-t-16-24-01">
+    <sqlFile dbms="mysql"
+            path="scripts/milestone-25/2020-10-08-t-16-24-01-alter-TimeZoneEnum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="prathamesh" id="2020-10-09-t-14-56-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-10-09-t-14-56-00-update-ST-offsetInSec-value-in-TimezoneEnum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-10-13-t-22-27-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-15/2020-10-13-t-22-27-00-update-text-in-TimezoneEnum-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2020-10-19-t-14-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-10-19-t-14-14-00-add-index-in-user-table-for-sp-optimization.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="akhilesh" id="2020-10-22-t-13-47-23">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-10-22-t-13-47-23-add-route-for-license-report-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="kashmira" id="2020-10-22-t-16-34-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-10-22-t-16-34-00-add-route-for-matching-tei.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="akhilesh" id="2020-10-30-t-12-22-53">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-10-30-t-12-22-53-add-route-for-license-report-details-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="het" id="2020-11-04-t-19-31-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-04-t-19-31-00-add-route-for-page-library.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-11-09-t-17-46-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-09-t-17-46-00-create-tables-for-manage-site.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pratik" id="2020-11-12-t-13-23-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-12-t-13-23-00-add-route-for-information-and-error-page.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pratik" id="2020-11-17-t-11-24-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-17-t-11-24-00-add-route-for-manage-global-footer-cfmenu.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2020-11-13-t-12-43-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-13-t-12-43-07-update-ORMgrUsers-and-ORMgrDemographics-add-column-vendorId.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2020-11-13-t-19-18-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-11-13-t-19-18-00-alter-or-base-table-primary-key.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-11-09-t-12-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-09-t-12-05-00-insert-row-page-clearance-create-announcements.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-11-20-t-15-04-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-11-20-t-15-04-00-insert-row-page-clearance-notifications-preferences.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-12-03-t-15-04-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-17/2020-12-03-t-15-04-00-insert-row-page-clearance-notification-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-11-20-t-20-20-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-11-20-t-20-20-00-add-timeZoneId-column-GenericHTMLPage-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-11-26-t-11-13-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-11-26-t-11-13-0-update-generichtmlpage-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-11-30-t-12-20-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-11-30-t-12-20-00-add-clearanceLevel-column-generichtmlpage-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-12-08-t-13-45-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-12-08-t-13-45-00-remove-footer-page-routes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rajnish" id="2020-12-16-12-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-12-16-12-50-00-change-rubric-catalog-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="krunal" id="2020-01-04-t-19-05-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-01-04-t-19-05-00-create-auth-alert-clearancelevel-map-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="imran" id="2021-01-04-t-20-33-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-04-t-20-33-00-add-page-clearance-for-course-family.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2021-01-07-16-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-07-16-30-00-change-clearance-level-for-teach-evaluation.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2020-01-18-t-21-10-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-01-18-t-21-10-07-update-auth-alert-clearancelevel-map-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-01-06-t-20-24-02">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-06-t-20-24-02-add-lt-base-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-01-07-t-20-24-02">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-07-t-20-24-02-alter-table-LinkitSyncUser.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-01-12-t-19-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-12-t-19-00-00-alter-table-LinkitSyncUser.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-01-13-t-22-41-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-13-t-22-41-00-alter-tables-LTStaff-LTStudent.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2021-01-14-t-11-40-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-14-t-11-40-00-alter-linkit-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2020-12-19-t-18-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2020-12-19-t-18-00-00-add-colums-isDeleted-LTSyncID-LTTables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-01-14-t-14-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-14-t-14-00-00-change-pk-lt-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-01-14t-22-57-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-14t-22-57-00-drop-lt-base-pk-fk.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-01-15-t-12-23-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-15-t-12-23-00-drop-unique-index-user-lt-user-map.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2021-01-19-t-15-55-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-19-t-15-55-00-alter-PageClearance-for-import-user-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2021-01-21-t-18-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-21-t-18-00-00-update-PageClearance-for-license-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-01-22-t-15-28-02">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-22-t-15-28-02-create-tables-for-course-family.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-01-22-t-19-00-01">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-22-t-19-00-01-add-entires-in-EnumRouteGroups.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-01-25-t-22-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-25-t-22-30-00-update-course-family-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2021-01-27-t-12-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-01-27-t-12-00-00-alter-page-clearance-for-import-users-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rushikesh" id="2021-02-27-t-16-01-02">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-02-27-t-16-01-02-chage-column-name-route-groupid.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vishal" id="2021-02-01-t-20-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-02-01-t-20-50-00-alter-for-LDAP.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="akhilesh" id="2021-02-17-t-14-32-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-02-17-t-14-32-00-add-page-clearance-for-eoy-actions.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="dhaval" id="2021-02-24-t-10-41-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-02-24-t-10-41-00-alter-table-CLMgrTeacher.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2021-02-19-t-19-22-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-20/2021-02-19-t-19-22-07-update-page-clearance-for-alert.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ashwathi" id="2021-04-05-t-19-35-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-28/2021-04-05-t-19-35-00-add-page-clearance-for-import-license.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pratik" id="2021-04-14-t-19-46-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-28/2021-04-14-t-19-46-00-add-page-clearance-for-import-license-listing.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2021-05-06-t-18-41-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-28/2021-05-06-t-18-41-00-add-index-user-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="imran" id="2021-05-20-t-18-21-30">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-05-20-t-18-21-30-add-page-clearance-for-course-details.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2021-06-01-t-21-46-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-06-01-t-21-46-07-add-isEmulated-in-UserSession.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+
+<changeSet author="pawan" id="2021-06-01-t-21-51-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-06-01-t-21-51-07-add-table-EmulatedUserLog.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2021-06-02-t-20-50-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-06-02-t-20-50-00-rename-column-EmulatedUserLog.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="ankit" id="2021-06-04-t-13-45-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-06-04-t-13-45-00-make-id-column-auto-increment-EmulatedUserLog.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="salim" id="2021-05-27-t-11-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-28/2021-05-27-t-11-30-00-add-page-clearance-configure-consumer-details.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="rajnish" id="2021-06-02-t-14-47-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-28/2021-06-02-t-14-47-00-update-consumer-listing-clearence.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="hammad" id="2021-06-25-t-20-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-06-25-t-20-30-00-hide-preference-for-student.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="akhilesh" id="2021-07-02-t-19-04-02">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-07-02-t-19-04-00-add-page-clearance-for-assign-to-multiple-class.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="mayuresh" id="2021-07-20-t-11-51-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-07-20-t-11-51-00-add-school-year-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2021-09-21-t-13-24-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-09-21-t-13-24-07-add-index-ORMgrUsers.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2022-01-23-t-14-22-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2022-01-23-t-14-22-07-add-column-userRole-ORMgrUsers.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2022-01-23-t-15-22-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2022-01-23-t-15-22-07-add-column-isOrDataUpdate-ORMgrUsers.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2022-01-23-t-16-28-07">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2022-01-23-t-16-28-07-add-table-ORUserData.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="imran" id="2022-01-31-t-21-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2022-01-31-t-21-00-00-add-column-enabledUser-ORUsersData.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="imran" id="2022-01-31-t-21-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2022-01-31-t-21-30-00-add-column-enabledUser-ORMgrUsers.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2022-02-14-t-13-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/quantum-lite/init/2022-02-14-t-13-00-00-hide-assessment-pages.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="imran" id="2022-02-17-t-18-30-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2022-02-17-t-18-30-0-add-route-for-drag-and-drop-question.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2021-11-23-t-11-26-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-11-23-t-11-27-00-change-column-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+<changeSet author="uzma" id="2022-09-15-t-20-51-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2022-09-15-t-20-51-00-add-index-on-or-tables.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2022-02-14-t-13-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/quantum-lite/init/2022-02-14-t-13-00-00-hide-assessment-pages.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dhaval" id="2022-04-06-t-22-53-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-4/2022-04-06-t-22-53-00-update-course-family-routes.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="utsav" id="2022-04-13-t-14-27-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-5/2022-04-13-t-14-27-00-insert-tmlo-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pawan" id="2021-11-23-t-11-26-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2021-11-23-t-11-27-00-change-column-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="utsav" id="2022-04-29-t-16-53-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-6/2022-04-29-t-16-53-00-insert-tmlo-teacher-note-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vipin" id="2022-06-22-t-18-59-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-10/2022-06-22-t-18-59-00-insert-tei-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="abickel" id="2022-07-06-t-10-57-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-21/2022-07-06-t-10-57-00-classroom-module-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="jburgess" id="2022-07-12-t-8-41-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-21/2022-07-12-t-8-41-00-curriculum-module-page-clearance.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="utsav" id="2022-07-20-t-18-43-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-11/2022-07-20-t-18-43-00-insert-hyperlink-preview-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vipin" id="2022-07-28-t-12-14-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-12/2022-07-28-t-12-14-00-insert-compound-lo-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vipin" id="2022-08-24-t-20-35-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-14/2022-08-24-t-20-35-00-insert-compound-lo-teacher-note-route.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="aditya" id="2022-08-12-t-12-19-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-36/2022-08-12-t-12-19-00-add-route-for-assignment.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="kanchan" id="2022-08-30-t-12-17-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-37/2022-08-30-t-12-17-00-add-route-for-assignment-details.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="dharmendra" id="2022-09-14-t-13-28-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-39/2022-09-14-t-13-28-00-add-route-for-assignment-player.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="soham" id="2022-08-16-t-10-54-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2022-08-16-t-10-54-00-convert-datetime-to-datetime.sql"
+             relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="soham" id="2022-08-12-t-15-33-00">
+     <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2022-08-12-t-15-33-00-add-userId-column-in-deleted-users.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="soham" id="2022-08-24-t-18-20-00">
+    <sqlFile dbms="mysql"
+            path="scripts/sprint-32/2022-08-24-t-18-20-00-create-UserSyncStatus-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="Atif" id="2022-11-24-t-15-52-00"><sqlFile dbms="mysql" path="scripts/sprint-39/2022-11-24-t-15-32-00-add-column-fullName-into-UserDetails-Table.sql" relativeToChangelogFile="true"/></changeSet>
+
+<changeSet author="pranav" id="2022-11-03-t-18-00-00"><sqlFile dbms="mysql" path="scripts/sprint-39/2022-11-03-t-18-00-00-add-values-for-import-user-batch-details.sql" relativeToChangelogFile="true"/></changeSet>
+<changeSet author="pranav" id="2022-11-04-t-18-00-00"><sqlFile dbms="mysql" path="scripts/sprint-39/2022-11-04-t-18-00-00-add-values-for-cancel-import-user.sql" relativeToChangelogFile="true"/></changeSet>
+<changeSet author="edwin" id="2022-12-09-t-12-46-00"><sqlFile dbms="mysql" path="scripts/sprint-39/2022-12-09-t-12-46-00-page-clearance-level-update.sql" relativeToChangelogFile="true"/></changeSet>
+  
+<changeSet author="pritam" id="2022-01-20-t-11-57-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-24/2022-01-20-t-11-57-00-pageclearance-changes-for-admin-users.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pritam" id="2022-01-25-t-15-35-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-24/2022-01-25-t-15-35-00-reports-page-clearance-update.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="soham" id="2023-03-08-t-14-25-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-25/2023-03-08-t-14-25-00-alter-table-tzenum.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="prince" id="2023-03-29-t-18-37-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-50/2023-03-29-t-18-37-00-add-competency-applications-table.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="pritam" id="2023-04-04-t-12-43-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/ada-sprint-51/2023-04-04-t-12-43-00-update-page-clearance-for-student-listing-for-pa-and-tso.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="umang" id="2023-04-05-t-15-00-00">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-51/2023-04-05-t-15-00-00-add-route-for-item-report-for-teacher.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+<changeSet author="vipin" id="2023-04-20-t-13-35-47">
+    <sqlFile dbms="mysql"
+            path="scripts/arjuna/sprint-52/2023-04-20-t-13-35-47-add-route-for-grade-and-comment-for-teacher.sql"
+            relativeToChangelogFile="true"/>
+</changeSet>
+
+  <include file="function.changelog.xml" relativeToChangelogFile="true"/>
+  <include file="sp.changelog.xml" relativeToChangelogFile="true"/>
+  <include file="trigger.changelog.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>

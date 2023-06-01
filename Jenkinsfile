@@ -27,9 +27,14 @@ pipeline {
             stage('Run Liquibase') {
                 steps {
                     script {
-                        dir("liquibase") {
-                            sh "./liquibase updateSQL --changelog-file=${env.changeLog} --classpath=${env.classpath} --driver=${env.driver} --url=${env.URL}  --username=${env.USERNAME} --password=${env.PASSWORD}"
+                        def serviceDirectories = findFiles(glob: 'services/*')
+                        for (def service in serviceDirectories) {
+                           def serviceName = service.name
+                           echo "${serviceName}"
                         }
+                        /* dir("liquibase") { */
+                        /*     sh "./liquibase updateSQL --changelogFile=${env.changeLog} --classpath=${env.classpath} --driver=${env.driver} --url=${env.URL}  --username=${env.USERNAME} --password=${env.PASSWORD}" */
+                        /* } */
                     }
                 }
             }
