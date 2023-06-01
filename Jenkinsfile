@@ -58,7 +58,6 @@ def repoData = [
                             basePath = pwd() + '/'
                                 cmsRepoPath = basePath + cmsDirectory
                                 lmsRepoPath = basePath + lmsDirectory
-                                commonClientRepoPath = basePath + commonClientDirectory
                         }
                     }
                 }
