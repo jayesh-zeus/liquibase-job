@@ -83,7 +83,7 @@ def repoData = [
                                     }
                             }
                             dir("liquibase") {
-                                sh "./liquibase --changeLogFile=${env.changeLog} --classpath=${env.classpath} --driver=${env.driver} --url=${env.URL}  --username=${env.USERNAME} --password=${env.PASSWORD} updateSQL "
+                                sh "./liquibase --changeLogFile=${env.changeLog} --classpath=${env.classpath} --driver=${env.driver} --url=${env.URL}  --username=${env.USERNAME} --password=${env.PASSWORD} updateSQL"
                             }
                         }
                     }
