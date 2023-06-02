@@ -86,6 +86,7 @@ def repoData = [
                                 def serviceDirectores = sh(returnStdout: true, script: 'ls -d */').trim().split()
                                 echo "$serviceDirectores"
                                 sh "./liquibase --changeLogFile=${env.changeLog} --classpath=${env.classpath} --driver=${env.driver} --url=${env.URL}  --username=${env.USERNAME} --password=${env.PASSWORD} updateSQL"
+                                sh "java -jar liquibase.jar --changeLogFile=${env.changeLog} --classpath=${env.classpath} --driver=${env.driver} --url=${env.URL}  --username=${env.USERNAME} --password=${env.PASSWORD} updateSQL"
                             }
                         }
                     }

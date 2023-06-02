@@ -7,6 +7,7 @@
 
 <changeSet id="1" author="jayesh">
         <createTable tableName="testTable">
+          <column name="id" type="int"></column>
         </createTable>
 </changeSet>
 
