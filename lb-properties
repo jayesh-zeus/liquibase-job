@@ -1,5 +1,5 @@
 changeLog=../services/auth/db.changelog-master.xml
-URL=jdbc:mysql://localhost:3307/world
+URL=jdbc:mysql://localhost:3307/arjuna_auth
 driver=com.mysql.cj.jdbc.Driver
 classpath=./mysql-connector-java-8.0.28.jar
 USERNAME=root
